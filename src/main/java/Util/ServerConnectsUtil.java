@@ -10,11 +10,11 @@ import java.io.*;
 import java.util.List;
 
 public class ServerConnectsUtil {
-    private static String hostname = "192.168.1.15";
-    private static int port = 22;
-    private static String username = "root";
-    private static String password = "qyff2011";
-    public static String serverBasePath = "/var/log/dairlylog/";
+    private static String hostname = " ";
+    private static int port =  22;
+    private static String username = " ";
+    private static String password = " ";
+    public static String serverBasePath = " ";
 
     public static void getLogFiles(List<String> filePaths) {
         deleteDir(getLocalPath());

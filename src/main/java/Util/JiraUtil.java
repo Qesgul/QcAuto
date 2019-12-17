@@ -18,9 +18,9 @@ import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 public class JiraUtil {
-    public static String BaseURL = "http://qc.feifanuniv.com";
+    public static String BaseURL = " ";
     private static URI attUri = URI
-            .create("http://qc.feifanuniv.com/rest/api/2/issue/");
+            .create(".../rest/api/2/issue/");
 
     public static void createBug(IssueInputBuilder issueInputBuilder, List<String> fileList) throws URISyntaxException, InterruptedException {
         URI jiraServerUri = getUri(BaseURL);

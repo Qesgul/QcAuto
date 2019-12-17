@@ -20,7 +20,7 @@ public class ConfigFileProvider implements IConfigProvider {
     private static ConfigFileProvider s_instance = null;
     Map<String, Map<String, String>> caseMap = null;
     private static String CASE = "AUTO-001";
-    public static String BaseURL = "http://qc.feifanuniv.com";
+    public static String BaseURL = " ";
 
     public ConfigFileProvider() {
         try {

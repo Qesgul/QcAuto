@@ -15,7 +15,7 @@ import java.util.List;
 public class ServerQcAuto {
     private static List<String> fileList = new ArrayList<>();
     private static List<String> logFileList = new ArrayList<>();
-    private static final String BUG_PROJECT_KEY = "QSC";
+    private static final String BUG_PROJECT_KEY = "  ";
 
     public static void main(String[] args) throws URISyntaxException, InterruptedException {
         getLogFilePath(ConfigFileProvider.instance().getString("enviroment"), getExceptionList());
