@@ -1,0 +1,20 @@
+<Suite>
+    <Case Name="AUTO-001">
+
+        <Entry Name="enviroment">production</Entry>
+        <Entry Name="username">liuzheng</Entry>
+        <Entry Name="password">jizhi233</Entry>
+
+        <Entry Name="assignee">huqx</Entry>
+        <Entry Name="displayName">胡秋香</Entry>
+        <Entry Name="summary">服务器异常log</Entry>
+        <Entry Name="description">服务器异常log</Entry>
+
+        <!--
+            为了方便解析，使用“&”作为标签分隔符，“&”在xml中定义为“&amp;”
+            例如“服务器异常log&amp;自动化发现”
+         -->
+        <Entry Name="labels">服务器异常log</Entry>
+
+    </Case>
+</Suite>
